@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Favicon</title>
+	<style>
+		.s0 { fill: #004834 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m35 34.8h-38v-37.6h38z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m11.1 7.3h-5.2v1.1h5.2q3.4 0 5 2.1 1.5 1.8 1.5 5.5 0 3.4-1.8 5.5-1.9 2.1-5.2 2.1h-4.7v1.1h4.7q3.8 0 5.9-2.5 2.1-2.3 2.1-6.2 0-4-1.7-6.2-2-2.5-5.8-2.5z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m18.6 8.4h6.5v16.3h1v-16.4-1h-7.5z"/>
+			</g>
+			<path id="&lt;Compound Path&gt;" class="s1" d="m30.5 30.5h-29v-29h29zm-28.4-0.6h27.8v-27.8h-27.8z"/>
+		</g>
+	</g>
+</svg>
