@@ -55,7 +55,8 @@ footer{background:#102712;color:#fff;padding:70px 0 25px}.footer-main{display:gr
 @media(max-width:760px){.hours-section{padding:50px 0}.hours-layout{grid-template-columns:1fr;gap:28px}.hours-heading h2{font-size:2.45rem}.hours-heading>p{font-size:.84rem}.hours-flow .hours-list li{padding:7px 0}}
 
 /* Keep the homepage hero inside the visible screen with room after its actions. */
-#hero{height:calc(100svh - 34px);min-height:610px;max-height:820px;padding-top:105px;padding-bottom:72px}.hero-content{padding-top:45px}.hero-buttons{margin-bottom:18px}
-@media(max-height:780px) and (min-width:761px){#hero{min-height:590px;padding-top:90px;padding-bottom:78px}.hero-content{padding-top:30px}.hero-content h1{font-size:clamp(3.8rem,7vw,5.5rem)}.heritage-mark{margin-bottom:15px}.hero-content p{margin:16px 0 24px;font-size:1rem}.hero-buttons{margin-bottom:0}}
-@media(max-width:760px){#hero{height:auto;min-height:calc(100svh - 46px);max-height:none;padding:135px 0 96px}.hero-content{padding-top:0}.hero-buttons{margin-bottom:12px}}
+#hero{height:calc(100svh - 34px);min-height:610px;max-height:820px;padding-top:105px;padding-bottom:72px;overflow:hidden}.hero-content{padding-top:55px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.hero-content h1{font-size:clamp(4rem,8vw,7.5rem)}.hero-buttons{margin-bottom:18px;flex:0 0 auto;position:relative;z-index:2}
+@media(max-height:780px) and (min-width:761px){#hero{min-height:570px;padding-top:82px;padding-bottom:68px}.hero-content{padding-top:20px}.hero-content h1{font-size:clamp(3.65rem,6.4vw,4.85rem)}.heritage-mark{margin-bottom:12px}.hero-content p{margin:14px 0 21px;font-size:.95rem;line-height:1.5}.hero-buttons{margin-bottom:0}.btn-large{padding:14px 23px;font-size:.92rem}}
+@media(max-height:650px) and (min-width:761px){#hero{min-height:540px;padding-top:74px;padding-bottom:54px}.hero-content h1{font-size:clamp(3.2rem,5.8vw,4.2rem)}.hero-content p{margin:10px 0 17px}.heritage-mark{margin-bottom:9px}}
+@media(max-width:760px){#hero{height:auto;min-height:calc(100svh - 46px);max-height:none;padding:125px 0 88px;overflow:hidden}.hero-content{padding-top:0;align-items:stretch}.hero-content h1{font-size:clamp(3rem,15vw,3.75rem)}.hero-buttons{margin-bottom:12px}}
 @media(max-width:380px){#hero{min-height:620px;padding-top:125px;padding-bottom:90px}}
