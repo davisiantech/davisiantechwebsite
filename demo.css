@@ -53,3 +53,9 @@ footer{background:#102712;color:#fff;padding:70px 0 25px}.footer-main{display:gr
 .hours-section{padding:62px 0}.hours-layout{grid-template-columns:.72fr 1.28fr;gap:72px;align-items:center}.hours-heading h2{font-size:clamp(2.45rem,4vw,3.65rem);margin-bottom:15px}.hours-heading>p{font-size:.9rem;line-height:1.55;max-width:390px}.hours-flow{padding-top:0}.hours-flow-title{font-size:1.08rem;padding-bottom:10px}.hours-flow .hours-list li{padding:8px 0;font-size:.8rem}.hours-flow .hours-list .season-dates,.hours-flow .hours-list .zipline-hours{padding:8px 0}.hours-flow .hours-note{margin-top:11px;font-size:.65rem}
 @media(max-width:980px){.hours-section{padding:58px 0}.hours-layout{grid-template-columns:.78fr 1.22fr;gap:48px}.hours-heading h2{font-size:2.65rem}}
 @media(max-width:760px){.hours-section{padding:50px 0}.hours-layout{grid-template-columns:1fr;gap:28px}.hours-heading h2{font-size:2.45rem}.hours-heading>p{font-size:.84rem}.hours-flow .hours-list li{padding:7px 0}}
+
+/* Keep the homepage hero inside the visible screen with room after its actions. */
+#hero{height:calc(100svh - 34px);min-height:610px;max-height:820px;padding-top:105px;padding-bottom:72px}.hero-content{padding-top:45px}.hero-buttons{margin-bottom:18px}
+@media(max-height:780px) and (min-width:761px){#hero{min-height:590px;padding-top:90px;padding-bottom:78px}.hero-content{padding-top:30px}.hero-content h1{font-size:clamp(3.8rem,7vw,5.5rem)}.heritage-mark{margin-bottom:15px}.hero-content p{margin:16px 0 24px;font-size:1rem}.hero-buttons{margin-bottom:0}}
+@media(max-width:760px){#hero{height:auto;min-height:calc(100svh - 46px);max-height:none;padding:135px 0 96px}.hero-content{padding-top:0}.hero-buttons{margin-bottom:12px}}
+@media(max-width:380px){#hero{min-height:620px;padding-top:125px;padding-bottom:90px}}
